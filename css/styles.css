@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing:border-box;
+}
+
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, black, white);
+    padding: 10px;
+}
+
+.box{
+    width: 100%;
+    max-width: 450px;
+    background: #fff;
+    margin:  auto ;
+    margin-top: 100px;
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+}
+
+.numbers_only{
+    width: 70%;
+}
+
+.calculate{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 4px;
+}
+
+.middle{
+   
+    display: flex;
+}
+
+.x{
+    border: 3px solid;
+}
+
+
+.styled-input input{
+    padding: 20px;
+    
+    width: 300px;
+    border: 3px solid black;
+    font-size: 20px;
+    overflow: auto;
+}
+.butt{
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.results{
+    border: 3px solid black;
+    padding: 4px;
+    width: 200px;
+    height: 40px;
+
+    font-size: 20px;
+    margin: 10px 0px;
+    overflow: auto;
+}
+
+
+.answers{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.answers p{
+    margin-right: 5px;
+    font-weight: bold;
+
+}
+
+.num{
+    width: 60px;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.top_row{
+    display: flex;
+    gap: 4px;
+}
+
+
+.results{
+    color: black;
+}
+
+.the-numbers{
+    max-width: 340px;
+    margin-top: 20px;
+}
+
+.plusminus{
+    padding: 10px;
+}
+
+.c{
+    padding-right: 40px;
+}
+
+
+
+
+.num-equal:hover{
+    background: black;
+    color: white;
+}
+
+.num:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
